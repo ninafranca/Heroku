@@ -1,0 +1,17 @@
+{
+  "name": "heroku",
+  "version": "1.0.0",
+  "description": "Using Heroku",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["heroku"],
+  "author": "Nina Spinelli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
